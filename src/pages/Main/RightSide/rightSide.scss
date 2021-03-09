@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    margin-left: 10px;
+    padding: 8px 24px;
+
+    background: #C4C4C4;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+
+    width: 250px;
+}
+
+.img {
+    cursor: pointer;
+}
+
+.input {
+    background: #C4C4C4;
+
+    outline: none;
+    border: none;
+}
+
+.addColumn {
+    cursor: pointer;
+}
